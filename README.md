@@ -62,9 +62,6 @@ wc -l javascript_biarritz_toulouse.csv
 cat javascript_biarritz_toulouse.csv
 ```
 
-```
-grep "Biarritz\|Toulouse"   wilders.csv | grep "Javascript" < wilders.csv | wc -l
-```
 **Combiner les commandes history et tail (en ajustant le nombre de lignes) pour produire un fichier <kbd>history.txt</kbd> :**
 ```
 history | tail -n 23 > history.txt
